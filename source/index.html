@@ -2,11 +2,42 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
   </head>
-  <body>
+  <body class="page__body">
+    <header class="main-header">
+      <!-- ЛОГОТИП -->
+      <a class="main-header__logo">
+        <img src="img/sedona-logo-mobile.svg" alt="Логотип Sedona">
+      </a>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+      <!-- НАВИГАЦИЯ -->
+      <nav class="main-header__navigation-menu navigation-menu">
+        <button class="navigation-menu__toggle-btn" type="button">
+          <span class="visually-hidden">Открыть меню.</span>
+        </button>
+        <div class="navigation-menu__wrapper">
+          <ul class="navigation-menu__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link" href="#">Главная</a>
+              <button class="navigation-menu__toggle-btn" type="button">
+                <span class="visually-hidden">Закрыть меню.</span>
+              </button>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link" href="#">Фото и видео</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link" href="#">Форма отзыва</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link" href="#">HTML ACADEMY</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
   </body>
 </html>
