@@ -52,6 +52,81 @@
         </div>
       </section>
 
+      <!-- ФОРМА -->
+      <section>
+        <div>
+          <form action="https://echo.htmlacademy.ru/" method="post">
+            <h3>Представьтесь:</h3>
+            <label>
+              Имя*:<input type="text" name="name" placeholder="Пётр" required>
+            </label>
+            <label>
+              Фамилия*:<input type="text" name="surname" placeholder="Пустота" required>
+            </label>
+            <label>
+              Отчество:<input type="text" name="patronymic" placeholder="Викторович">
+            </label>
+
+            <h3>Контактная информация:</h3>
+            <label>
+              Контактный телефон*:<input type="text" name="phone" placeholder="Введите телефон" required>
+            </label>
+            <label>
+              Электронная почта*:<input type="text" name="e-mail" placeholder="Введите e-mail" required>
+            </label>
+
+            <h3>Ваше общее впечатление:</h3>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="feeling" checked>Скорее положительное
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="feeling">Скорее отрицательное
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="feeling">Затрудняюсь ответить
+                </label>
+              </li>
+            </ul>
+
+            <h3>Посещенные достопримечательности:</h3>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="bridge" checked>Мост Дьявола
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="mountain" checked>Гора-Колокол
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="park" checked>Слайд-парк
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="rock">Красные скалы
+                </label>
+              </li>
+            </ul>
+
+            <h3>Опишите свои эмоции:</h3>
+            <textarea name="comment" cols="30" rows="10">Опишите подробно все свои восторги</textarea>
+
+            <input type="submit" value="Отправить отзыв">
+          </form>
+          <p>* — обязательные поля</p>
+        </div>
+      </section>
+
     </main>
 
       <!-- ПОДВАЛ СТРАНИЦЫ -->
