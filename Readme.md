@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Илья Петрищев](https://up.htmlacademy.ru/adaptive/28/user/2263217).
-* Наставник: `Неизвестно`.
+* Наставник: [Павел Нюкало](https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
