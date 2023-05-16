@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <!-- ШАПКА -->
@@ -20,16 +21,16 @@
         </button>
         <div class="navigation-menu__wrapper">
           <ul class="site-list navigation-menu__list">
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="index.html">Главная</a>
             </li>
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="catalog.html">Фото и видео</a>
             </li>
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="form.html">Форма отзыва</a>
             </li>
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="#">HTML ACADEMY</a>
             </li>
           </ul>
@@ -46,7 +47,7 @@
         <div class="intro__wrapper-image">
           <img src="img/intro-dop-mobile.jpg" alt="Sedona">
         </div>
-        <div class="intro__wrapper">
+        <div class="intro-wrapper intro__wrapper">
           <h3 class="intro__title">Оставьте свой отзыв</h3>
           <p class="intro__description">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
         </div>
@@ -57,28 +58,28 @@
         <h2 class="visually-hidden">Форма отзыва.</h2>
         <div class="feedback__wrapper">
           <form class="feedback__form" action="https://echo.htmlacademy.ru/" method="post">
-            <div class="feedback__container">
+            <div class="feedback-container feedback__container">
               <h3 class="feedback__title">Представьтесь:</h3>
-              <label class="feedback__initials-label">
+              <label class="initials-label feedback__initials-label">
                 Имя*:<input class="feedback__initials-input" type="text" name="name" value="Пётр" placeholder="Имя" required>
               </label>
-              <label class="feedback__initials-label">
+              <label class="initials-label feedback__initials-label">
                 Фамилия*:<input class="feedback__initials-input" type="text" name="surname" value="Пустота" placeholder="Фамилия" required>
               </label>
-              <label class="feedback__initials-label">
+              <label class="initials-label feedback__initials-label">
                 Отчество:<input class="feedback__initials-input" type="text" name="patronymic" value="Викторович" placeholder="Отчество">
               </label>
             </div>
 
-            <div class="feedback__container">
+            <div class="feedback-container feedback__container">
               <h3 class="feedback__title">Контактная информация:</h3>
-              <label class="feedback__contacts">
+              <label class="contacts-label feedback__contacts">
                 Контактный телефон*:<input class="feedback__contacts-input" type="tel" name="phone" placeholder="Введите телефон" required>
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3.6 7.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V17c0 .6-.4 1-1 1A17 17 0 0 1 0 1c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1L3.6 7.8Z" fill="#010101"/>
                 </svg>
               </label>
-              <label class="feedback__contacts">
+              <label class="contacts-label feedback__contacts">
                 Электронная почта*:<input class="feedback__contacts-input" type="email" name="email" placeholder="Введите e-mail" required>
                 <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="m8 8-1-.3L0 4v7c0 .5.5 1 1 1h14c.5 0 1-.5 1-1V4L9 7.7 8 8Zm7-8H1a1 1 0 0 0-1 1v.8L8 6l8-4.2V1c0-.5-.5-1-1-1Z" fill="#000"/>
@@ -86,47 +87,47 @@
               </label>
             </div>
 
-            <div class="feedback__container">
+            <div class="feedback-container feedback__container">
               <h3 class="feedback__title">Ваше общее впечатление:</h3>
-              <ul class="feedback__list">
-                <li class="feedback__item">
-                  <label class="feedback__radio">
+              <ul class="feedback-list feedback__list">
+                <li class="feedback-item feedback__item">
+                  <label class="radio-label feedback__radio">
                     <input class="feedback__radio-input" type="radio" name="feeling" value="positive" checked>Скорее положительное
                   </label>
                 </li>
-                <li class="feedback__item">
-                  <label class="feedback__radio">
+                <li class="feedback-item feedback__item">
+                  <label class="radio-label feedback__radio">
                     <input class="feedback__radio-input" type="radio" name="feeling" value="negative">Скорее отрицательное
                   </label>
                 </li>
-                <li class="feedback__item">
-                  <label class="feedback__radio">
+                <li class="feedback-item feedback__item">
+                  <label class="radio-label feedback__radio">
                     <input class="feedback__radio-input" type="radio" name="feeling" value="unclear">Затрудняюсь ответить
                   </label>
                 </li>
               </ul>
             </div>
 
-            <div class="feedback__container">
+            <div class="feedback-container feedback__container">
               <h3 class="feedback__title">Посещенные достопримечательности:</h3>
-              <ul class="feedback__list">
-                <li class="feedback__item">
-                  <label class="feedback__checkbox">
+              <ul class="feedback-list feedback__list">
+                <li class="feedback-item feedback__item">
+                  <label class="checkbox-label feedback__checkbox">
                     <input class="feedback__checkbox-input" type="checkbox" name="bridge" value="bridge" checked>Мост Дьявола
                   </label>
                 </li>
-                <li class="feedback__item">
-                  <label class="feedback__checkbox">
+                <li class="feedback-item feedback__item">
+                  <label class="checkbox-label feedback__checkbox">
                     <input class="feedback__checkbox-input" type="checkbox" name="mountain" value="mountain" checked>Гора-Колокол
                   </label>
                 </li>
-                <li class="feedback__item">
-                  <label class="feedback__checkbox">
+                <li class="feedback-item feedback__item">
+                  <label class="checkbox-label feedback__checkbox">
                     <input class="feedback__checkbox-input" type="checkbox" name="park" value="park" checked>Слайд-парк
                   </label>
                 </li>
-                <li class="feedback__item">
-                  <label class="feedback__checkbox">
+                <li class="feedback-item feedback__item">
+                  <label class="checkbox-label feedback__checkbox">
                     <input class="feedback__checkbox-input" type="checkbox" name="rock" value="rock">Красные скалы
                   </label>
                 </li>
@@ -134,12 +135,12 @@
             </div>
 
 
-            <div class="feedback__container">
+            <div class="feedback-container feedback__container">
               <h3 class="feedback__title">Опишите свои эмоции:</h3>
               <textarea class="feedback__comment" name="comment" cols="30" rows="10">Опишите подробно все свои восторги</textarea>
             </div>
 
-            <input type="submit" value="Отправить отзыв">
+            <input class="button-submit" type="submit" value="Отправить отзыв">
           </form>
           <p>* — обязательные поля</p>
         </div>
@@ -184,7 +185,7 @@
             </a>
           </li>
         </ul>
-        <div class="main-footer__copyright">
+        <div class="copyright main-footer__copyright">
           <p class="main-footer__text">РАЗРАБОТАНО</p>
           <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M13.65.45h-.1L.05 1.85v24.7l13.5 8 13.4-8V1.85L13.65.45Zm11.4 12.1-11.5-6.8v-.1h-.1l-.1-.1v.1l-11.4 6.9v-9l11.5-1.2 11.6 1.2v9Zm-11.6-5.3 11.5 6.7-4.5 2.6-7.1-4.2v1.4l5.9 3.5-.9.5-5-3v1.4l3.8 2.3-.8.5-3-1.8v1.4l1.9 1.1-1.8 1.1-11.4-6.7 11.4-6.8Zm-11.5 8.3 11.4 6.8v1l-7.9-4.7v1.4l8 4.8v1.1l-8-4.7v1.4l8 4.8 8.1-4.9v-5.2l3.4-2v10l-11.5 6.9-11.5-6.8v-9.9Z" fill="#000"/>
