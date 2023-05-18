@@ -1,0 +1,38 @@
+.feedback__title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+.feedback__initials,
+.feedback__contacts {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 21px;
+
+  color: #333333;
+}
+
+.feedback__initials-input,
+.feedback__contacts-input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+
+  color: #000000;
+};
+
+.feedback__radio,
+.feedback__checkbox,
+.feedback__comment {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}

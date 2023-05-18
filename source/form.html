@@ -60,13 +60,13 @@
           <form class="feedback__form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="feedback-container feedback__container">
               <h3 class="feedback__title">Представьтесь:</h3>
-              <label class="initials-label feedback__initials-label">
+              <label class="initials-label feedback__initials">
                 Имя*:<input class="feedback__initials-input" type="text" name="name" value="Пётр" placeholder="Имя" required>
               </label>
-              <label class="initials-label feedback__initials-label">
+              <label class="initials-label feedback__initials">
                 Фамилия*:<input class="feedback__initials-input" type="text" name="surname" value="Пустота" placeholder="Фамилия" required>
               </label>
-              <label class="initials-label feedback__initials-label">
+              <label class="initials-label feedback__initials">
                 Отчество:<input class="feedback__initials-input" type="text" name="patronymic" value="Викторович" placeholder="Отчество">
               </label>
             </div>
@@ -137,12 +137,12 @@
 
             <div class="feedback-container feedback__container">
               <h3 class="feedback__title">Опишите свои эмоции:</h3>
-              <textarea class="feedback__comment" name="comment" cols="30" rows="10">Опишите подробно все свои восторги</textarea>
+              <textarea class="feedback__comment" name="comment" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
             </div>
 
             <input class="button-submit" type="submit" value="Отправить отзыв">
           </form>
-          <p>* — обязательные поля</p>
+          <p class="feedback__required-field">* — обязательные поля</p>
         </div>
       </section>
 
