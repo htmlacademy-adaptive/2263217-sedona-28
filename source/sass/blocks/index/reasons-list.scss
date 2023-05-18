@@ -1,0 +1,16 @@
+.reasons__list--decor {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background: url("../../../img/intro-triangle-inverted.svg") no-repeat;
+
+    width: 320px;
+    height: 37px;
+
+  }
+}
