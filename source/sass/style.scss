@@ -1,11 +1,12 @@
+@use "font-face.scss";
+@use "visually-hidden.scss";
+@use "page.scss";
 @use "blocks/main-container.scss";
-
 @use "blocks/main-header/main-header.scss";
 @use "blocks/main-header/logo.scss";
 @use "blocks/main-header/navigation-menu.scss";
 @use "blocks/main-header/site-list.scss";
 @use "blocks/main-header/site-list-item.scss";
-
 @use "blocks/index/intro.scss";
 @use "blocks/index/intro-wrapper-image.scss";
 @use "blocks/index/intro-wrapper.scss";
@@ -19,7 +20,6 @@
 @use "blocks/index/search.scss";
 @use "blocks/index/search-link.scss";
 @use "blocks/index/map.scss";
-
 @use "blocks/form/feedback.scss";
 @use "blocks/form/feedback-container.scss";
 @use "blocks/form/feedback-list.scss";
@@ -29,48 +29,12 @@
 @use "blocks/form/radio-label.scss";
 @use "blocks/form/checkbox-label.scss";
 @use "blocks/form/button-submit.scss";
-
 @use "blocks/catalog/photo.scss";
 @use "blocks/catalog/photo-list.scss";
 @use "blocks/catalog/photo-item.scss";
 @use "blocks/catalog/video.scss";
-
 @use "blocks/main-footer/main-footer.scss";
 @use "blocks/main-footer/social-list.scss";
 @use "blocks/main-footer/social-link.scss";
 @use "blocks/main-footer/social-item.scss";
 @use "blocks/main-footer/copyright.scss";
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/ptsans.woff2") format("woff2"),
-       url("../fonts/ptsans.woff") format("woff");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/ptsansbold.woff2") format("woff2"),
-       url("../fonts/ptsansbold.woff") format("woff");
-  font-display: swap;
-}
-
-.page__body {
-  margin: 0;
-}
-
-/* Скрытие семантических тегов */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}

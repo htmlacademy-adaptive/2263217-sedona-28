@@ -1,5 +1,4 @@
 .search__title {
-  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -9,12 +8,21 @@
 }
 
 .search__description {
-  font-family: "PT Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 21px;
 
   color: #333333;
+}
+
+.search__link {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+  background-color: #81b3d2;
 }
 
 .search {
