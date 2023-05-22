@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <!-- ШАПКА -->
@@ -20,16 +21,16 @@
         </button>
         <div class="navigation-menu__wrapper">
           <ul class="site-list navigation-menu__list">
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="index.html">Главная</a>
             </li>
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="catalog.html">Фото и видео</a>
             </li>
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="form.html">Форма отзыва</a>
             </li>
-            <li class="site-list__item">
+            <li class="site-list-item site-list__item">
               <a class="site-list__link" href="#">HTML ACADEMY</a>
             </li>
           </ul>
@@ -38,15 +39,15 @@
     </header>
 
     <main class="main-container">
-      <h1 class="visually-hidden">Седона - город для туризма</h1>
+      <h1 class="visually-hidden">Седона - город для туризма.</h1>
 
       <!-- ВСТУПЛЕНИЕ -->
       <section class="intro main-container__intro">
         <h2 class="visually-hidden">Вступление.</h2>
-        <div class="intro__wrapper-image">
-          <img src="img/hero-text-mobile.jpg" alt="Welcome to the gorgeous. Sedona. Because the Grand Canyon sucks!">
+        <div class="intro-wrapper-image intro__wrapper-image">
+          <img class="intro__hero-mobile" src="img/hero-text-mobile.svg" alt="Welcome to the gorgeous. Sedona. Because the Grand Canyon sucks!">
         </div>
-        <div class="intro__wrapper-text">
+        <div class="intro-wrapper intro__wrapper">
           <h3 class="intro__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>
           <p class="intro__reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         </div>
@@ -56,25 +57,25 @@
       <section class="reasons main-container__reasons">
         <h2 class="visually-hidden">Причины.</h2>
         <div class="reasons__wrapper">
-          <ol class="reasons__list">
+          <ol class="reasons-list reasons__list reasons__list--decor">
             <li class="reasons-item reasons__item">
               <div class="wrapper-text reasons-item__wrapper-text">
-                <h3 class="reasons-item__title reasons-item__title--color">Настоящий городок</h3>
-                <span class="reasons__divider reasons__divider--color">— №1 —</span>
-                <p class="reasons__description reasons__description--color">Седона не аттракцион для туристов, там течет своя жизнь</p>
+                <h3 class="reasons-item__title">Настоящий городок</h3>
+                <span class="reasons__divider">— №1 —</span>
+                <p class="reasons__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
               </div>
               <img src="img/photo-city-mobile.png" alt="Фото города">
-              <div class="benefits__wrapper">
-                <ul class="benefits__list">
-                  <li class="benefits__item">
+              <div class="benefits">
+                <ul class="benefits-list benefits__list">
+                  <li class="benefits-item benefits__item">
                     <h3 class="benefits__title">Жилье</h3>
                     <p class="benefits__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                   </li>
-                  <li class="benefits__item">
+                  <li class="benefits-item benefits__item">
                     <h3 class="benefits__title">Еда</h3>
                     <p class="benefits__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                   </li>
-                  <li class="benefits__item">
+                  <li class="benefits-item benefits__item">
                     <h3 class="benefits__title">Сувениры</h3>
                     <p class="benefits__description">Не только китайского, но и местного производства!</p>
                   </li>
@@ -83,28 +84,28 @@
             </li>
             <li class="reasons-item reasons__item">
               <div class="wrapper-text reasons-item__wrapper-text">
-                <h3 class="reasons-item__title reasons-item__title--color">Там есть мост дьявола</h3>
-                <span class="reasons__divider reasons__divider--color">— №2 —</span>
-                <p class="reasons__description reasons__description--color">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+                <h3 class="reasons-item__title">Там есть мост дьявола</h3>
+                <span class="reasons__divider">— №2 —</span>
+                <p class="reasons__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
               </div>
               <img src="img/photo-bridge-mobile.png" alt="Фото города">
             </li>
             <li class="reasons-item reasons__item">
-              <div class="wrapper-text reasons-item__wrapper-text">
+              <div class="wrapper-text reasons-item__wrapper-text reasons-item__wrapper-text--color">
                 <h3 class="reasons-item__title">Небольшая площадь</h3>
                 <span class="reasons__divider">— №3 —</span>
                 <p class="reasons__description">Все интересные места находятся очень близко</p>
               </div>
             </li>
             <li class="reasons-item reasons__item">
-              <div class="wrapper-text reasons-item__wrapper-text">
+              <div class="wrapper-text reasons-item__wrapper-text reasons-item__wrapper-text--color">
                 <h3 class="reasons-item__title">Красивая дорога</h3>
                 <span class="reasons__divider">— №4 —</span>
                 <p class="reasons__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </div>
             </li>
             <li class="reasons-item reasons__item">
-              <div class="wrapper-text reasons-item__wrapper-text">
+              <div class="wrapper-text reasons-item__wrapper-text reasons-item__wrapper-text--color">
                 <h3 class="reasons-item__title">Мало туристов</h3>
                 <span class="reasons__divider">— №5 —</span>
                 <p class="reasons__description">Большинство едет в Гранд Каньон и толпится там</p>
@@ -119,7 +120,7 @@
         <div class="search__wrapper">
           <h2 class="search__title">Заинтересовались?</h2>
           <p class="search__description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="search__link" href="form.html">Найти гостиницу</a>
+          <a class="search-link search__link" href="form.html">Найти гостиницу</a>
         </div>
       </section>
 
@@ -127,7 +128,7 @@
       <section class="map">
         <h2 class="visually-hidden">Карта расположения города.</h2>
         <div class="map__wrapper">
-          <img src="img/map-mobile.jpg" alt="">
+          <img class="map__image" src="img/map-mobile.jpg" alt="">
         </div>
       </section>
     </main>
@@ -169,7 +170,7 @@
             </a>
           </li>
         </ul>
-        <div class="main-footer__copyright">
+        <div class="copyright main-footer__copyright">
           <p class="main-footer__text">РАЗРАБОТАНО</p>
           <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M13.65.45h-.1L.05 1.85v24.7l13.5 8 13.4-8V1.85L13.65.45Zm11.4 12.1-11.5-6.8v-.1h-.1l-.1-.1v.1l-11.4 6.9v-9l11.5-1.2 11.6 1.2v9Zm-11.6-5.3 11.5 6.7-4.5 2.6-7.1-4.2v1.4l5.9 3.5-.9.5-5-3v1.4l3.8 2.3-.8.5-3-1.8v1.4l1.9 1.1-1.8 1.1-11.4-6.7 11.4-6.8Zm-11.5 8.3 11.4 6.8v1l-7.9-4.7v1.4l8 4.8v1.1l-8-4.7v1.4l8 4.8 8.1-4.9v-5.2l3.4-2v10l-11.5 6.9-11.5-6.8v-9.9Z" fill="#000"/>

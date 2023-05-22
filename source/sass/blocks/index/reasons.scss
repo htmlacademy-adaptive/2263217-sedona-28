@@ -1,0 +1,25 @@
+.reasons__list--decor {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background: url("../img/intro-triangle-inverted.svg") no-repeat;
+
+    width: 320px;
+    height: 37px;
+  }
+}
+
+.reasons__divider,
+.reasons__description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 21px;
+
+  color: #333333;
+}

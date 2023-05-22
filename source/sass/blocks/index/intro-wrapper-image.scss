@@ -1,0 +1,22 @@
+.intro-wrapper-image {
+  position: relative;
+
+  background: #81b3d2 url("../img/hero-mobile.jpg") no-repeat;
+
+  height: 389px;
+  width: 320px;
+  padding: 90px 19px 85px;
+  box-sizing: border-box;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background: url("../img/intro-triangle.svg") no-repeat;
+
+    width: 320px;
+    height: 57px;
+  }
+}
