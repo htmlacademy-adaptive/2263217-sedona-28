@@ -32,6 +32,11 @@
 @media (min-width: 768px) {
   .intro-wrapper-image {
     height: 518px;
+  }
+}
+@media (min-width: 1200px) {
+  .intro-wrapper-image {
     max-width: 1200px;
+    margin: 0 auto;
   }
 }
