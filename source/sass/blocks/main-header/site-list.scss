@@ -7,3 +7,23 @@
   color: #ffffff;
   background-color: #81b3d2;
 }
+
+@media (min-width: 768px) {
+  .site-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    min-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    min-width: 1200px;
+  }
+}
