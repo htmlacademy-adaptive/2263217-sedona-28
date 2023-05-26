@@ -65,16 +65,14 @@
 }
 
 .intro__wrapper-image--second {
+  height: 157px;
+  overflow: hidden;
+
   &::before {
     background-position: bottom;
     background-size: auto;
     top: 0;
   }
-}
-
-.intro__wrapper-image--second {
-  height: 157px;
-  overflow: hidden;
 }
 
 @media (max-width: 767px) {
