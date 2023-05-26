@@ -1,4 +1,6 @@
 .intro__title {
+  margin: 0;
+
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -10,6 +12,8 @@
 
 .intro__reasons,
 .intro__description {
+  margin: 0;
+
   font-size: 14px;
   text-transform: uppercase;
   line-height: 21px;

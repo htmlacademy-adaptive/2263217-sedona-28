@@ -5,7 +5,7 @@
   width: 100%;
   box-sizing: border-box;
 
-  &:before {
+  &::before {
     content: "";
     display: block;
     position: absolute;
@@ -34,6 +34,7 @@
     height: 518px;
   }
 }
+
 @media (min-width: 1200px) {
   .intro-wrapper-image {
     max-width: 1200px;

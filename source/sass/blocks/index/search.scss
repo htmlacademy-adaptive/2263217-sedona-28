@@ -1,25 +1,49 @@
+.search__wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+
+  padding: 38px 18px 49px;
+}
+
 .search__title {
+  margin: 0;
+
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 26px;
+  text-align: center;
 
   color: #000000;
 }
 
 .search__description {
+  width: 100%;
+  max-width: 435px;
+  margin: 0;
+
   font-size: 14px;
   text-transform: uppercase;
   line-height: 21px;
+  text-align: center;
 
   color: #333333;
 }
 
 .search__link {
-  font-size: 18px;
+  width: 100%;
+  max-width: 458px;
+  min-height: 58px;
+  box-sizing: border-box;
+  padding: 16px 49px;
+
+  font-size: 21px;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 26px;
   text-decoration: none;
+  text-align: center;
 
   color: #ffffff;
   background-color: #81b3d2;
