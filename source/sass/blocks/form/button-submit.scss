@@ -1,7 +1,14 @@
 .button-submit {
+  width: 100%;
+  max-width: 324px;
+  min-height: 58px;
+  box-sizing: border-box;
+  padding: 16px 49px;
+
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
   text-transform: uppercase;
+  font-weight: 700;
   text-decoration: none;
   line-height: 26px;
 
