@@ -130,6 +130,17 @@
 }
 
 @media (min-width: 1200px) {
+  .feedback__list {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    gap: 16px;
+  }
+
+  .feedback__list--checkbox {
+    grid-template-columns: 224px 224px 224px 224px;
+    gap: 16px 32px;
+  }
+
   .feedback__form {
     column-gap: 100px;
 
