@@ -1,3 +1,10 @@
 .photo-item {
   padding: 24px 0 25px;
 }
+
+@media (min-width: 648px) {
+  .photo-item {
+    padding: 0;
+  }
+
+}

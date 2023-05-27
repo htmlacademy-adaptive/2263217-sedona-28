@@ -59,32 +59,52 @@
         <div class="photo__wrapper">
           <ul class="photo-list photo__list">
             <li class="photo-item photo__item">
-              <h3 class="visually-hidden">Первое фото.</h3>
-              <img src="img/photo-1-mobile.jpg" alt="">
-              <h4 class="photo__title">Неродные просторы</h4>
-              <p class="photo__author">Автор фото: Борис</p>
-              <p class="photo__like">1350</p>
+              <div class="photo__wrapper-image photo__wrapper-image--main">
+                <img class="photo__image" src="img/photo-1.jpg" alt="Первое фото.">
+              </div>
+              <div class="photo__description">
+                <div class="photo__text">
+                  <h3 class="photo__title">Неродные просторы</h3>
+                  <p class="photo__author">Автор фото: Борис</p>
+                </div>
+                <p class="photo__like">1350</p>
+              </div>
             </li>
             <li class="photo-item photo__item">
-              <h3 class="visually-hidden">Второе фото.</h3>
-              <img src="img/photo-2-mobile.jpg" alt="">
-              <h4 class="photo__title">Местная растительность</h4>
-              <p class="photo__author">Автор фото: Сергей</p>
-              <p class="photo__like">143</p>
+              <div class="photo__wrapper-image">
+                <img class="photo__image" src="img/photo-2.jpg" alt="Второе фото.">
+              </div>
+              <div class="photo__description">
+                <div class="photo__text">
+                  <h3 class="photo__title">Местная растительность</h3>
+                  <p class="photo__author">Автор фото: Сергей</p>
+                </div>
+                <p class="photo__like">143</p>
+              </div>
             </li>
             <li class="photo-item photo__item">
-              <h3 class="visually-hidden">Третье фото.</h3>
-              <img src="img/photo-3-mobile.jpg" alt="">
-              <h4 class="photo__title">Дорога на север</h4>
-              <p class="photo__author">Автор фото: Петр</p>
-              <p class="photo__like">96</p>
+              <div class="photo__wrapper-image">
+                <img class="photo__image" src="img/photo-3.jpg" alt="Третье фото.">
+              </div>
+              <div class="photo__description">
+                <div class="photo__text">
+                  <h3 class="photo__title">Дорога на север</h3>
+                  <p class="photo__author">Автор фото: Петр</p>
+                </div>
+                <p class="photo__like">96</p>
+              </div>
             </li>
             <li class="photo-item photo__item">
-              <h3 class="visually-hidden">Четвертое фото.</h3>
-              <img src="img/photo-4-mobile.jpg" alt="">
-              <h4 class="photo__title">Мост дьявола</h4>
-              <p class="photo__author">Автор фото: Антон</p>
-              <p class="photo__like">254</p>
+              <div class="photo__wrapper-image">
+                <img class="photo__image" src="img/photo-4.jpg" alt="Четвертое фото.">
+              </div>
+              <div class="photo__description">
+                <div class="photo__text">
+                  <h3 class="photo__title">Мост дьявола</h3>
+                  <p class="photo__author">Автор фото: Сергей</p>
+                </div>
+                <p class="photo__like">254</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -96,7 +116,9 @@
         <div class="video__wrapper">
           <h3 class="video__title">Все еще сомневаетесь?</h3>
           <p class="video__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-          <img src="img/video-mobile.jpg" alt="Видео проезда по каньону.">
+          <div class="video__container">
+            <img class="video__preview" src="img/video.jpg" alt="Видео проезда по каньону.">
+          </div>
         </div>
       </section>
     </main>
