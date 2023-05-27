@@ -9,7 +9,7 @@
 .search__title {
   margin: 0;
 
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 26px;
@@ -51,4 +51,10 @@
 
 .search {
   padding: 38px 0 49px;
+}
+
+@media (min-width: 768px) {
+  .search__title {
+    font-size: 30px;
+  }
 }
