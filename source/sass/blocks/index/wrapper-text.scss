@@ -1,3 +1,10 @@
 .wrapper-text {
-  padding: 24px 0;
+  padding: 37px 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .wrapper-text {
+    padding: 52px 0 31px;
+  }
 }

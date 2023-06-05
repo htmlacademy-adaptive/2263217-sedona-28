@@ -1,5 +1,10 @@
 .reasons-list {
   list-style-type: none;
-  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0;
 }

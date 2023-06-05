@@ -1,4 +1,20 @@
+.main-footer {
+  padding: 33px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-footer__wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+
+  padding: 0 8%;
+}
+
 .main-footer__title {
+  margin: 0;
+
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -13,7 +29,15 @@
   line-height: 21px;
 }
 
+@media (min-width: 768px) {
+  .main-footer__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
-.main-footer {
-  padding: 33px 0;
+@media (min-width: 1200px) {
+  .main-footer__wrapper {
+    padding: 0 10%;
+  }
 }
