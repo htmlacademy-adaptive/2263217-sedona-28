@@ -72,9 +72,8 @@
   height: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 512px) {
   .reasons__wrapper-image {
-    height: 256px;
     flex-grow: 1;
     width: 512px;
     max-width: 800px;
@@ -84,6 +83,12 @@
     display: block;
     height: auto;
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .reasons__wrapper-image {
+    height: 256px;
   }
 
   .reasons__item--flex {
